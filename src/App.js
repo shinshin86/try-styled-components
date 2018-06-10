@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import styled, { css, keyframes } from 'styled-components';
 import CustomForm from './CustomForm';
+import ToggleBtnSample from './ToggleBtnSample';
 
 /*** styled components ***/
 const AppBody = styled.div`
@@ -70,6 +71,7 @@ class App extends Component {
             large primary button
           </Button>
         </AppIntro>
+        <ToggleBtnSample />
         <CustomForm />
       </AppBody>
     );
