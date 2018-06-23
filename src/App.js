@@ -9,6 +9,11 @@ const AppBody = styled.div`
   text-align: center;
 `;
 
+const Container = styled.div`
+  max-width: 1100px;
+  margin: 0 auto;
+`;
+
 // should define beore AppLogo
 const AppLogoSpin = keyframes`
   from { transform: rotate(0deg); }
@@ -64,15 +69,17 @@ class App extends Component {
           <AppLogo src={logo} alt="logo" />
           <AppTitle>Try styled components with react create app</AppTitle>
         </AppHeader>
-        <AppIntro>
-          <Button>Normal Button</Button>
-          <Button primary>primary button</Button>
-          <Button primary large>
-            large primary button
-          </Button>
-        </AppIntro>
-        <ToggleBtnSample />
-        <CustomForm />
+        <Container>
+          <AppIntro>
+            <Button>Normal Button</Button>
+            <Button primary>primary button</Button>
+            <Button primary large>
+              large primary button
+            </Button>
+          </AppIntro>
+          <ToggleBtnSample />
+          <CustomForm />
+        </Container>
       </AppBody>
     );
   }

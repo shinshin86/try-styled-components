@@ -18,8 +18,8 @@ const CustomInput = styled.input.attrs({
 `;
 
 const CustomField = styled.p`
-  margin: 10px;
-  padding: 10px;
+  margin: 16px;
+  padding: 16px;
   background-color: grey;
 `;
 
@@ -29,8 +29,8 @@ const Title = styled.h2`
 
 const Content = styled.div`
   border: solid 1px grey;
-  margin: 10px;
-  padding: 10px;
+  margin: 16px;
+  padding: 16px;
 `;
 
 const CustomForm = () => (
@@ -39,9 +39,6 @@ const CustomForm = () => (
     <CustomInput placeholder="text is here" type="text" />
     <CustomInput placeholder="date is here" type="date" />
     <CustomInput placeholder="password is here" type="password" />
-    <p>
-      <CustomInput placeholder="password is here" type="email" size="3em" />
-    </p>
     <CustomField>
       <CustomInput
         placeholder="password is here"
