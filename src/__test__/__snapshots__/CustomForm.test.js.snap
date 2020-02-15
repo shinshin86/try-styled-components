@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomForm Snapshot 1`] = `
+.c2 {
+  color: palevioletred;
+  font-size: 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+  type: text;
+  margin: 1em;
+  padding: 1em;
+}
+
+.c3 {
+  color: palevioletred;
+  font-size: 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+  type: date;
+  margin: 1em;
+  padding: 1em;
+}
+
+.c4 {
+  color: palevioletred;
+  font-size: 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+  type: password;
+  margin: 1em;
+  padding: 1em;
+}
+
+.c6 {
+  color: palevioletred;
+  font-size: 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+  type: image;
+  margin: 12px;
+  padding: 12px;
+}
+
+.c7 {
+  color: palevioletred;
+  font-size: 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+  type: submit;
+  margin: 1em;
+  padding: 1em;
+}
+
+.c5 {
+  margin: 16px;
+  padding: 16px;
+  background-color: grey;
+}
+
+.c1 {
+  border-bottom: solid 1px palevioletred;
+}
+
+.c0 {
+  border: solid 1px grey;
+  margin: 16px;
+  padding: 16px;
+}
+
+<div
+  className="c0"
+>
+  <h2
+    className="c1"
+  >
+    Custom Form
+  </h2>
+  <input
+    className="c2"
+    margin="1em"
+    padding="1em"
+    placeholder="text is here"
+    type="text"
+  />
+  <input
+    className="c3"
+    margin="1em"
+    padding="1em"
+    placeholder="date is here"
+    type="date"
+  />
+  <input
+    className="c4"
+    margin="1em"
+    padding="1em"
+    placeholder="password is here"
+    type="password"
+  />
+  <p
+    className="c5"
+  >
+    <input
+      alt="react logo"
+      className="c6"
+      height="200"
+      margin="12px"
+      padding="12px"
+      placeholder="password is here"
+      size="12px"
+      src="logo.svg"
+      type="image"
+      width="200"
+    />
+  </p>
+  <input
+    className="c7"
+    margin="1em"
+    padding="1em"
+    type="submit"
+    value="submit"
+  />
+</div>
+`;

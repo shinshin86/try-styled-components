@@ -16,7 +16,9 @@
     "fmt": "prettier --write src/**/*.js"
   },
   "devDependencies": {
-    "prettier": "1.12.1"
+    "jest-styled-components": "^5.0.1",
+    "prettier": "1.12.1",
+    "react-test-renderer": "^16.4.1"
   },
   "prettier": {
     "singleQuote": true

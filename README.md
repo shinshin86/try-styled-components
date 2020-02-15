@@ -11,5 +11,8 @@ yarn run start
 
 # Prettier
 yarn run fmt
+
+# test
+yarn run test
 ```
 
